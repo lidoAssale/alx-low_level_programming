@@ -26,7 +26,7 @@ while (hours <=23)
 		minutes++;
 		_putchar('\n');
 		}
-		hours++
-			minutes = 0;
+		hours++;
+		minutes = 0;
 		}
 }
