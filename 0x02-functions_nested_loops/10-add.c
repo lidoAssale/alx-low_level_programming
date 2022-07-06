@@ -1,24 +1,20 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main: adds two integers
+ * main: adds two integers and gives their result
  * Return: 0 always (sucess)
  */
 int add(int, int)
 {
-int num1, num2, result;
+int num1, num2;
 printf("\nEnter the two numbers : ");
 scanf("%d %d", &num1, &num2);
 
-result = sum(num1, num2);
-
-printf("nAddition of two numbers is : ");
+printf("%d + %d = %d\n ", num1, num2, add(num1, num2));
 return (0);
 }
 
-int sum(int num1, int num2)
+int add(int a, int b)
 {
-int num3;
-num3 = num1 + num2
-	return (num3);
+return(a + b);
 }
