@@ -1,16 +1,18 @@
+#include <studio.h>
 #include "main.h"
 /**
- *Description: prints the alphabet in lowercase
+ *Main: prints the alphabet in lowercase
  *Return: 0 on success
  */
-{
-void print_alphabet(void);
-char ch;
-_putchar("Lowercase characters: \n);
 
-for (ch = 'a' ; ch <= 'z' ; ch++)
+void print_alphabet(void);
 {
-_putchar("%c", ch);
+	int n;
+
+for (n = 97; n <= 122; n++)
+{
+_putchar(n);
 }
+putchar('\n');
 return (0);
 }
